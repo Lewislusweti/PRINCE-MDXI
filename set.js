@@ -36,7 +36,7 @@ BOT_PIC: process.env.BOT_PIC || "https://raw.githubusercontent.com/Mayelprince/u
 AUTO_AUDIO: process.env.AUTO_AUDIO || "true",
 AUTO_BIO: process.env.AUTO_BIO || "true",
 AUTO_BIO_QUOTE: process.env.AUTO_BIO_QUOTE || "Dreamkid☄️🎮 ",
-CHAT_BOT: process.env.CHAT_BOT || "true", // Put value to true to enablle for all chats only or inbox to ebanle in pm chats only or groups to enable in groups only else false
+CHAT_BOT: process.env.CHAT_BOT || "false", // Put value to true to enablle for all chats only or inbox to ebanle in pm chats only or groups to enable in groups only else false
 WELCOME: process.env.WELCOME || "false",
 GOODBYE: process.env.GOODBYE || "false",    
 AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES || "false", // Enter value to true for blueticking all messages, or commands for blueticking only commands else false
